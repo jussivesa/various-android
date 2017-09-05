@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">firstDemo</string>
+    <string name="hello_world">Heippa Android, olen teksti.</string>
+    <string name="hello_world_land">Heippa Android, olen teksti vaakatasossa.</string>
+    <string name="hello_world_header">Minun nimeni on Otsikko</string>
+</resources>

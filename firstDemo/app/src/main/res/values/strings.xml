@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">firstDemo</string>
-    <string name="hello_world">Hello Android, I'm a sting.</string>
+    <string name="hello_world">Hello Android, I\'m a sting.</string>
+    <string name="hello_world_land">Hello Android, I\'m a sting in landscape.</string>
+    <string name="hello_world_header">My name is Header</string>
 </resources>
