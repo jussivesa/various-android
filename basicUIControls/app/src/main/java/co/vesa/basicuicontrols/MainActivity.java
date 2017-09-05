@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // AutoCompleteTextView
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_dropdown_item_1line,
                 NAMES
@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         RadioButton rb = (RadioButton) findViewById(id);
         // get radiobutton text
         String text = (String) rb.getText();
+
+        if (text.length() == 0) return;
 
         // toast message to screen
         Toast.makeText(
