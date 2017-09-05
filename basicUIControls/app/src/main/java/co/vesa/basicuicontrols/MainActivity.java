@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
         String usernameText = username.getText().toString();
         String passwordText = password.getText().toString();
 
+        if (username.length() == 0 || password.length() == 0) return;
+
         // toast username and password to screen
         Toast.makeText(
                 getApplicationContext(),
