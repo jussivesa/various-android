@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NotificationDemo</string>
+    <string name="fake_news_heading_1">Caribbean braced for major new hurricane</string>
+    <string name="fake_news_heading_2">New Zealand jet fuel shortage leaves passengers stranded</string>
+    <string name="fake_news_heading_3">Andy Murray: Tennis women make the same sacrifices as men</string>
+    <string name="fake_news_1">
+    Maria is expected to become a dangerous major hurricane as it nears the Leeward Islands in the Caribbean.
+    The category one hurricane will rapidly strengthen over the next 48...</string>
+    <string name="fake_news_2">
+    Thousands of airline passengers are stranded in Auckland after a burst pipeline cut fuel supplies to New Zealand\'s largest airport.
+    The pipeline is Auckland Airport\'s...</string>
+    <string name="fake_news_3">
+    Andy Murray practised against both boys and girls in his early years...</string>
+    <string name="remind_btn">Remind me</string>
+    <string name="remind_desc">Remind me about these unread articles.
+        News will be added to your notification bar, so you can check back later on.</string>
+    <string name="channel_name">Notifications that need your attention</string>
+    <string name="channel_description">You will receive meaningful notifications that enhances your experience.</string>
+    <string name="reply_label">This needs your attention.</string>
+</resources>
