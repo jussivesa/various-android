@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MenuAndDialogDemo</string>
+    <string name="exit_dialog_title">Exit the app?</string>
+    <string name="exit_dialog_msg">Quit or return.</string>
+    <string name="exit_dialog_yes">Quit</string>
+    <string name="exit_dialog_cancel">Cancel</string>
+    <string name="exit_icon_text">Bye</string>
+</resources>
