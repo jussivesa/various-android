@@ -1,0 +1,25 @@
+{
+	"locations":
+	[
+	  {
+	    "title": "Narikantori",
+	    "lat": "60.169676",
+	    "lng": "24.934860"
+	  },
+	  {
+	    "title": "Tavastia",
+	    "lat": "60.168532",
+	    "lng": "24.933222"
+	  },
+	  {
+	    "title": "Lasipalatsinaukio",
+	    "lat": "60.170010",
+	    "lng": "24.935800"
+	  },
+	  {
+	    "title": "Senaatintori",
+	    "lat": "60.169479",
+	    "lng": "24.952287"
+	  }
+	]
+}
