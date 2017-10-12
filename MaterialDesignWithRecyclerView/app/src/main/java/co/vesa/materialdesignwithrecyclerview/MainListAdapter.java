@@ -53,6 +53,5 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.ViewHo
         holder.placeName.setText(place.name);
         Glide.with(mContext).load(place.getImageResourceId(mContext)).into(holder.placeImage);
     }
-
-
+    
 }

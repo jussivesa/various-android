@@ -15,7 +15,6 @@ public class Places {
     private static String[] placeNameArray = {
             "Black Mountain", "Chambers Bay", "Clear Water", "Harbour Town",
             "Muirfield", "Old Course", "Pebble Beach", "Spy Class", "Turtle Bay"};
-
     protected static ArrayList<Place> placeList() {
         ArrayList<Place> list = new ArrayList<>();
         for (int i = 0; i < placeNameArray.length; i++) {
