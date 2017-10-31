@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="co.vesa.basicuicontrols.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/radioGroupHeader"
+        android:textColor="@color/colorPrimary"/>
+    <RadioGroup android:id="@+id/foodRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp">
+        <RadioButton
+            android:id="@+id/radio0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"
+            android:text="@string/radioGroupItem1" />
+        <RadioButton
+            android:id="@+id/radio1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"
+            android:text="@string/radioGroupItem2" />
+        <RadioButton
+            android:id="@+id/radio2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"
+            android:text="@string/radioGroupItem3" />
+        <RadioButton
+            android:id="@+id/radio3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"
+            android:text="@string/radioGroupItem4" />
+        <RadioButton
+            android:id="@+id/radio4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false"
+            android:text="@string/radioGroupItem5" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:onClick="foodChoiceMade"
+            android:text="@string/radioGroupButton"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryLight" />
+    </RadioGroup>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foodRadioGroup"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:text="@string/loginGroupHeader"
+            android:textColor="@color/colorPrimary"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginGroupUsernameHeader"/>
+            <AutoCompleteTextView
+                android:id="@+id/loginGroupUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginGroupPasswordHeader"/>
+            <EditText
+                android:id="@+id/loginGroupPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:onClick="loginBtnClickMade"
+            android:text="@string/loginGroupButton"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimaryLight" />
+    </TableLayout>
+</RelativeLayout>

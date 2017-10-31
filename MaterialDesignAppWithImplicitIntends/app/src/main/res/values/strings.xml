@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MaterialDesignAppWithImplicitIntends</string>
+    <string name="website_link_text">Katso kentät kotisivut:</string>
+    <string name="map_text">Katso kentän sijainti:</string>
+</resources>
