@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">MapImplicitIntents</string>
-    <string name="locationInputHeader">Give some location</string>
-    <string name="locationInputLatHeader">Latitude</string>
-    <string name="locationInputLngHeader">Longitude</string>
-    <string name="locationInputButton">Open Map</string>
-</resources>
